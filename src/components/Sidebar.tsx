@@ -12,7 +12,7 @@ interface SidebarComponentProps  {
   userName: string;
   type?: "admin" |"student";
 }
-export type { SidebarProps };
+export type { SidebarComponentProps };
 export default function Sidebar() {
   return (
     <Stack
@@ -43,7 +43,17 @@ export default function Sidebar() {
       </Box>
       {/* แสดงผู้ใช้งาน */}
       <Box p={10}>
-        <Text>chanadda</Text>
+        <Group>
+          <Indicator color="graph" position="bottom-end" size={10} withBorder offset={6 }>
+            <Avatar
+              size="md"
+              variant="default"
+              radius="xl"
+              src = "https://drive.google.com/file/d/1MG3PBIMyvMd6hf0RvHMoWEWUjszyG0ti/view?usp=sharing"
+            />
+          </Indicator>
+          <Text>User : Narudee : Student</Text>
+        </Group>
       </Box>
     </Stack>
   );
