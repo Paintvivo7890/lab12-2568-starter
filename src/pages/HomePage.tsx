@@ -96,7 +96,7 @@ export default function HomePage() {
               <Group justify="space-between" align="flex-start">
                 <Stack>
                   <Text
-                    fw={600}
+                    fw={500}
                     td={task.isDone ? "line-through" : "none"}
                     size="lg"
                   >
