@@ -96,7 +96,7 @@ export default function HomePage() {
               <Group justify="space-between" align="flex-start">
                 <Stack>
                   <Text
-                    fw={500}
+                    fw={600}
                     td={task.isDone ? "line-through" : "none"}
                     size="lg"
                   >
@@ -127,7 +127,7 @@ export default function HomePage() {
                   <ActionIcon variant="light" 
                   color="red" aria-label="Settings" 
                   onClick={() => deleteTask(task.id)}>
-                    <IconTrash stroke={2} />
+                    <IconTrash stroke={1} />
                   </ActionIcon>
                 </Group>
               </Group>
