@@ -44,7 +44,7 @@ export default function Sidebar() {
       {/* แสดงผู้ใช้งาน */}
       <Box p={10}>
         <Group>
-          <Indicator color="graph" position="bottom-end" size={10} withBorder offset={6 }>
+          <Indicator color="pink" position="bottom-end" size={12} withBorder offset={8}>
             <Avatar
               size="md"
               variant="default"
