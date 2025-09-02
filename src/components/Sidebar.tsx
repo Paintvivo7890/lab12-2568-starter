@@ -49,7 +49,7 @@ export default function Sidebar() {
               size="md"
               variant="default"
               radius="xl"
-              src = "https://drive.google.com/file/d/1MG3PBIMyvMd6hf0RvHMoWEWUjszyG0ti/view?usp=sharing"
+              src = "Narudee.JPG"
             />
           </Indicator>
           <Text>User : Narudee : Student</Text>
