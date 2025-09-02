@@ -107,7 +107,7 @@ export default function HomePage() {
                     {task.description}
                   </Text>
                   {task.dueDate && (
-                    <Text size="xs" c="green">
+                    <Text size="xs" c="cyan">
                       Due: {task.dueDate.toLocaleDateString()}
                     </Text>
                   )}
@@ -125,7 +125,7 @@ export default function HomePage() {
                     onChange={() => {toggleDoneTask(task.id); task.dueDate=new Date()}}
                   />
                   <ActionIcon variant="light" 
-                  color="blue" aria-label="Settings" 
+                  color="red" aria-label="Settings" 
                   onClick={() => deleteTask(task.id)}>
                     <IconTrash stroke={2} />
                   </ActionIcon>
